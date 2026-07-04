@@ -5,3 +5,7 @@ function convertCelsiusToFahrenheit(celsius) {
 }
 
 convertCelsiusToFahrenheit(45);
+const strToNumber = '10';
+const number = Number(strToNumber);
+console.log(typeof(number));
+
