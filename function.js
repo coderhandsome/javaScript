@@ -7,3 +7,13 @@ function celciusToFahrenheit(celsius) {
 
 // Memanggil function
 celciusToFahrenheit(90);
+
+// Hoisting (Fitur yang memungkinkan menulis kode pemanggilan sebelum pendeklarasian fungsi)
+
+// Memanggil funtion
+greetWorld()
+
+// Mendeklarasikan function
+function greetWorld() {
+  console.log('Hello, world!');
+}
